@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Моя первая веб-страница</title>
+</head>
+<body>
+    <header>
+        <a href="#">Главная</a>
+        <a href="pages/about.html">О нас</a>
+        <a href="pages/contacts.html">Контакты</a>
+    </header>
+    <main>
+        <h1>Моя первая веб-страница</h1>
+        <div>
+            <h2>Про меня</h2>
+            <p>Меня зовут Марина. <br>
+            Я работаю <strong>инженером-програмистом</strong>. 
+            Решила получше узнать смежную профессию, чтобы разобраться как устроен веб.</p>
+            <p>Живу в Москве. Люблю путешествовать.</p>
+            <h2>Чему я хочу научиться</h2>
+            <p>На <em>этом</em> курсе я хотела бы научиться создавать сайты с нуля.</p>
+        </div>
+        <div>
+            <fieldset>
+                <h2>Давайте знакомиться</h2>
+                <form>
+                    <p>Как вас зовут? <input type="text" name = "nameUser" placeholder="Ведите имя" required="required" ></p>
+                    <p>Сколько вам лет? <input type="text" name = "yearUser" placeholder="Ведите ваш возраст"></p>
+                    <p>Ваш пол <br>
+                        М<input type="radio" name="sex" value="mail" checked>
+                        Ж<input type="radio" name="sex" value="femail">
+                    </p>
+                    <p>Где вы живете? 
+                        <select name="countries">
+                            <option label=" "></option>
+                            <option label="Россия"></option>
+                            <option label="Белоруссия"></option>
+                            <option label="Казахстан"></option>
+                            <option label="Турция"></option>
+                            <option label="Узбекистан"></option>
+                        </select>   
+                    </p>
+                    <p>
+                        Ваш любимый цвет<br>
+                        <input type="color" list="colorlist">
+                        <datalist id="colorlist">
+                        <!--    <option value="ff0000" label="Красный" ></option>
+                            <option value="00ff00" label="Красный" ></option>
+                            <option value="0000ff" label="Красный" ></option>
+                            <option value="ff0000" label="Красный" ></option>-->
+                        </datalist>
+                    </p>                 
+                    <p><input type="submit"></p>
+                </form>
+            </fieldset>
+        </div>   
+    </main>
+    <footer>
+        <span><br>&copy;&nbsp;
+            <a href="https://skillfactory.ru" target="_blank">SkillFactory</a> — oнлайн-школа IT-профессий.<br> 
+            Онлайн-курсы по Data Science, аналитике, <br>
+            программированию и менеджменту © 2022</span>
+</footer>
+</body>
+</html>
