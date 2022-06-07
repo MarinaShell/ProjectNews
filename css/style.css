@@ -85,3 +85,13 @@ p{
     font-size: 16px;
     color: rgb(17, 17, 65);
 }
+
+article:nth-child(even){
+         background-color: orange; /* устанавливаем цвет заднего фона */
+}
+
+.newads::before{
+    content: "NEW!";
+    color: brown;
+    font-style: italic;
+}
